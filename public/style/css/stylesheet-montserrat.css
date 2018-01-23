@@ -31,14 +31,23 @@
 
 }
 
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-regular-webfont.woff2') format('woff2'),
+         url('opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     transition: 0.5s all;
 
     font-family: montserratsemibold;
-    color: #252528;
+    color: #252525;
 
-    margin: 0;
-    overflow: hidden;
+    margin: 0 10% 0 10%;
+    overflow-x: hidden;
 }
 
 /*end font and body */
@@ -48,11 +57,11 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    border-bottom: 1px solid #CFCFCF;
-    background: #FCFCFC;
+    /*border-bottom: 1px solid #CFCFCF;*/
+    background: #FDFDFD;
     height: 10%;
 
-    font-size: 300%;
+    font-size: 200%;
 }
 
 #avro{
@@ -72,18 +81,22 @@ body {
     font-family: montserratlight;
 }
 
+#navbarlist {
+    list-style: none;
+    font-family: montserratlight;
+    font-size: 30px;
+    color: #757575;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    padding-right: 5%;
+    width: 75%;
 
+}
 
-#navbar img {
-    height: 75%;
-
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-
-    margin-left: auto;
-	margin-right: auto;
-	display: inline-block;
+#navbarlist li {
+    display: inline-block;
+    width: 15%;
 }
 
 #banner {
@@ -91,42 +104,36 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     max-width: 100%;
+    width: 100%;
 
-    /*align-items: center;*/
-    justify-content: center;
-
-
-    top: 0;
-
+    /*justify-content: center;*/
     font-size: 125px;
 
-    /*padding-left: 10%;
-    padding-right: 10%:
-    padding-top: 0;*/
 
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-top: 0;
+
+    /*margin-left: 10%;
+    margin-right: 10%;*/
 }
 
 #hero-image{
     display: flex;
-    max-width: 50%;
+    /*max-width: 50%;
     width: 50%;
-    height: 100%;
+    height: 100%;*/
 
-    position: absolute;
+    /*position: absolute;
     bottom: 0;
-    right: -10%;
+    right: -10%;*/
 }
 
 #hero-image img{
     display: flex;
-    max-width: 100%;
-    width: 65%;
-    height: 65%;
+    width: 100%;
+    height: 65%;/*proportioned relative to text*/
 
-    position: absolute;
-    top: 25%;
+    /*position: absolute;
+    top: 25%;*/
     
 }
 
@@ -137,16 +144,29 @@ body {
     align-items: flex-top; 
     display: flex; 
     justify-content: right;
-    position: absolute;
-    left: 10%;
 
-    width: 55%;
-    height: 100%;
+    /*width: 47.5%;*/
+    height: 100%;   
 }
 
 #hero-text p{
     text-align: right;
-    position: absolute;
-    right: 0;
-    top: 12.5%;
+}
+
+#founders {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    width: 100%;
+    font-family: open_sansregular;
+}
+
+#shak {
+    display: flex;
+    flex-grow: 1;
+}
+
+#keann {
+    display: flex;
 }
