@@ -132,6 +132,7 @@ body {
     flex-direction: row;
     height: 50px;
     /*position: absolute;*/
+    font-size: 24px;
     font-family: open_sansregular;
     color: #757575;
     font-size: 24px;
@@ -233,9 +234,9 @@ a[href^="mailto:"] {
 }
 
 .bio-text {
-    font-size: 24px;
+    font-size: 18px;
     color: #757575;
-    font-family: montserratlight;
+    font-family: open_sansregular !important;
     padding-left: 20px;
 }
 
