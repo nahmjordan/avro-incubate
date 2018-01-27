@@ -203,22 +203,16 @@ a[href^="mailto:"] {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    max-width: 100%;
-    width: 100%;
-    margin-left: 50px;
-    margin-right: 200px;
     font-family: open_sansregular;
     line-height: 48px;
     color: #262626;
 
     padding-bottom: 200px;
+
+    width: 100%;
+    align-content: center;
 }
 
-.flex-grid {
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 0;
-}
 .col {
     flex: 1;
     flex-grow: 1;
@@ -263,3 +257,8 @@ p {
 .avro-title{
     color: #252525;
 } 
+
+#flex-unit{
+	position:absolute;
+	flex-grow: 1;
+}
