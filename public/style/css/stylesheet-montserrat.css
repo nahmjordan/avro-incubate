@@ -201,18 +201,22 @@ a[href^="mailto:"] {
 }
 
 #advisors {
-    /*display: flex;
+    display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;*/
+    flex-wrap: nowrap;
     max-width: 100%;
     width: 100%;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 200px;
     font-family: open_sansregular;
     line-height: 48px;
     color: #262626;
 
     padding-bottom: 200px;
+}
+
+#advisor-unit {
+    
 }
 
 .flex-grid {
@@ -221,6 +225,7 @@ a[href^="mailto:"] {
 }
 .col {
     flex: 1;
+    flex-grow: 1;
 }
 
 .bio {
