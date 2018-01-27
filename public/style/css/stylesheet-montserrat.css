@@ -169,13 +169,11 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;    
     max-width: 100%;
     width: 100%;
-    margin-left: 100px;
-    margin-right: 100px;
     font-family: montserratsemibold;
     font-size: 24px;
-
     padding-bottom: 200px;
 }
 
@@ -258,4 +256,8 @@ a:hover {
 }
 a:active {
     text-decoration: none;
+}
+
+p {
+    font-family: montserrat;
 }
