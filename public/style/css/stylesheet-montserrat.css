@@ -79,7 +79,7 @@ body {
     text-align: center;
     vertical-align: center;
     /*line-height: 0px;*/
-
+    color: #252525; 
     position: absolute;
     left: 50px;
     top: 0px;
@@ -214,10 +214,6 @@ a[href^="mailto:"] {
     padding-bottom: 200px;
 }
 
-#advisor-unit {
-    
-}
-
 .flex-grid {
     display: flex;
     flex-wrap: nowrap;
@@ -263,3 +259,7 @@ a:active {
 p {
     font-family: montserrat;
 }
+
+.avro-title{
+    color: #252525;
+} 
