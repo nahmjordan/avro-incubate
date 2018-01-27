@@ -52,17 +52,16 @@ body {
     color: #252525;
     background: #fafafa;
 
-    /*margin: 0 10px 0 10px;*/
-    overflow-x: hidden;
+    overflow-x: hidden;/*FIX THIS FOR FOUNDERS SECTION OVERFLOW*/
 }
 
 /*end font and body */
 
 #navbar {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    position: absolute;
+    top: 0;
+    left: 0;
     /*border-bottom: 1px solid #CFCFCF;*/
     background: #FDFDFD;
     height: 75px;
@@ -211,11 +210,14 @@ a[href^="mailto:"] {
 
     width: 100%;
     align-content: center;
+    justify-content:center;
 }
 
 .col {
     flex: 1;
     flex-grow: 1;
+    align-items: center;
+    justify-content:center;
 }
 
 .bio {
@@ -259,6 +261,26 @@ p {
 } 
 
 #flex-unit{
-	position:absolute;
-	flex-grow: 1;
+	position:relative;
+    text-align:center;
+    margin: 0 auto;
+
+
+    width: 100px;
+    height: 100px;
+}
+
+#flex-unit p{
+    margin: 10px auto;
+    display: inline-block;
+}
+
+#flex-unit img{
+    margin: 10px auto;
+    position: relative;
+    display: inline-block;
+}
+
+.target{
+    height: 75px;
 }
