@@ -73,11 +73,11 @@ body {
 }
 
 #avro{
-    margin-left: 2.5%;
-    margin-bottom: 20%;
 
     font-size: 100%;
+    margin-top: 3px;
     text-align: center;
+    vertical-align: center;
     /*line-height: 0px;*/
 
     position: absolute;
@@ -238,4 +238,24 @@ a[href^="mailto:"] {
     color: #757575;
     font-family: montserratlight;
     padding-left: 20px;
+}
+
+li a {
+
+    text-decoration: none;  
+}
+
+a:link {
+    text-decoration: none;
+    color:#757575;
+}
+a:visited {
+    text-decoration: none;
+    color:#757575;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
 }
