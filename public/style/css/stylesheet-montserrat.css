@@ -52,7 +52,7 @@ body {
     color: #252525;
     background: #fafafa;
 
-    /*margin: 0 10% 0 10%;*/
+    /*margin: 0 10px 0 10px;*/
     overflow-x: hidden;
 }
 
@@ -158,23 +158,79 @@ body {
     padding: 20px;
 }
 
+.titles {
+    font-family: montserratlight; 
+    font-size: 100px; 
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
 #founders {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     max-width: 100%;
     width: 100%;
-    font-family: open_sansregular;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: montserratsemibold;
+    font-size: 24px;
 
     padding-bottom: 200px;
 }
 
-#shak {
+#patch {
     display: flex;
-    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 24px;
+    font-family: open_sansregular;
+    line-height: 48px;
+    color: #757575;
+
+    padding-bottom: 200px;
 }
 
-#keann {
+a[href^="mailto:"] {
+    color: #262626;
+    font-family: montserratsemibold;
+}
+
+#advisors {
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;*/
+    max-width: 100%;
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: open_sansregular;
+    line-height: 48px;
+    color: #262626;
+
+    padding-bottom: 200px;
+}
+
+.flex-grid {
     display: flex;
-    flex-grow: 1;
+    flex-wrap: nowrap;
+}
+.col {
+    flex: 1;
+}
+
+.bio {
+    display: flex;
+    flex-direction: row;
+}
+
+.bio-text {
+    font-size: 24px;
+    color: #757575;
+    font-family: montserratlight;
+    padding-left: 20px;
 }
