@@ -79,7 +79,7 @@ body {
     text-align: center;
     vertical-align: center;
     /*line-height: 0px;*/
-
+    color: #252525; 
     position: absolute;
     left: 50px;
     top: 0px;
@@ -262,3 +262,7 @@ a:active {
 p {
     font-family: montserrat;
 }
+
+.avro-title{
+    color: #252525;
+} 
