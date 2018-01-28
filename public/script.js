@@ -7,4 +7,15 @@ $(document).ready(function () {
 			var email = $("input.emailfield").val()
 		}
 	});
+
+	$(".navoption").mouseenter(function () {
+		
+		console.log("hovered");
+
+		$(this).find("a").css("color", "#252525");
+
+	}).mouseleave(function () {
+		$(this).find("a").css("color", "#757575");
+	});
+	
 });
