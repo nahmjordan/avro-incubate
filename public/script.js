@@ -7,5 +7,4 @@ $(document).ready(function () {
 			var email = $("input.emailfield").val()
 		}
 	});
-   	
 });
