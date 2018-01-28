@@ -230,11 +230,11 @@ p {
 }
 
 .bio-text {
-    font-size: 16px;
+    font-size: 20px;
     color: #757575;
-    font-family: open_sansregular;
-    padding-left: 10px;
-    padding-right: 70px;
+    font-family: open_sansregular !important;
+    padding-left: 20px;
+    line-height: 2.5em;
 }
 
 li a {
