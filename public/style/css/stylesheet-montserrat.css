@@ -198,7 +198,7 @@ a[href^="mailto:"] {
     font-family: montserratsemibold;
 }
 
-#advisors {
+table {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
