@@ -198,7 +198,16 @@ a[href^="mailto:"] {
     font-family: montserratsemibold;
 }
 
-#advisors {
+#foundertable {
+    font-size: 18px;
+    line-height: 2em;
+}
+
+#foundertable td {
+    padding: 0;
+}
+
+table {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
