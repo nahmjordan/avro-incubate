@@ -208,7 +208,7 @@ a[href^="mailto:"] {
 
     padding-bottom: 200px;
 
-    width: 100%;
+    max-width: 100%;
     align-content: center;
     justify-content:center;
 
@@ -219,6 +219,13 @@ td {
     padding-right: 75px;
     padding-left: 75px;
     padding-bottom: 50px;
+}
+
+td.partnerlogo{
+   max-width: 280px;
+   height: auto;
+   justify-content: left;
+
 }
 
 .col {
