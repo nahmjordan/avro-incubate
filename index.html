@@ -1,6 +1,7 @@
 <html>
 <head>
     <script src="https://use.fontawesome.com/9d70c5fc46.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="public/style/css/stylesheet-montserrat.css"/>
 </head>
 <body style="background:#FAFAFA">
@@ -13,7 +14,7 @@
     <li><a href="#lfounders">founders</a></li>
     <li><a href="#lpatch">our patch</a></li>
     <li><a href="#ladvisors">advisors</a></li>
-    <li><a href="#lpartners"> partners </a></li>
+    <li><a href="#lpartners">partners </a></li>
     <li><a href="#lcontact">contact us</a></li>
   </ul>
 
@@ -37,8 +38,8 @@
     <button id="subbutton" style = "font-family: montserrat">Subscribe</button>
   </div>
 
-</div>
-  
+</div>  
+    
 <p class="titles"><a id="lfounders">FOUNDERS</a></p>
 
 <div class="flex-grid" id="founders">
@@ -51,7 +52,7 @@
           <p>Shakir Lakhani</p>
         </div>
 
-        <div class="bio-text">
+        <div class="bio-text" style="font-family: open_sansregular;">
           <p>Shak Lakhani leads R&D, clinical strategy, partnerships and fundraising at Avro. He has 5 years of research experience under Rhodes Scholars and the Canada Research Chair for Nanotechology Engineering, and has had his research published in leading journals including Nature Materials and Biofabrication.</p>
         </div>
 
@@ -79,13 +80,10 @@
 
 <div id="patch">
 
-  <img style="max-width: 10%; max-height:35%; margin:0; object-fit: cover;"src="./public/style/patch.png"/>
+  <img style=" margin:0; object-fit: cover;"src="./public/style/patch.png"/>
   
-  <div style="padding-left: 20px; white-space: pre-line;">
-    Avro Life Science is developing skin patches for generic drug delivery, focusing 
-    on therapeutics for children and the elderly. The core of our technology is a novel
-    biopolymer which is used as a platform for passive transdermal drug delivery of small 
-    molecules and drugs. To learn more, or chat about partnering, send us a note at: 
+  <div style="padding-left: 10px; white-space: pre-line; max-width: 60%">
+    Avro Life Science is developing skin patches for generic drug delivery, focusing on therapeutics for children and the elderly. The core of our technology is a novel biopolymer which is used as a platform for passive transdermal drug delivery of small molecules and drugs. To learn more, or chat about partnering, send us a note at: 
     <a href="mailto:contact@avrolifesci.com">contact@avrolifesci.com.</a>
   </div>
 
@@ -190,11 +188,10 @@
   </div>
   
   <div id="footcenter">
-    <div class="flex-grid" id="founders">
-      <i class="fa fa-twitter-square"></i> 
-      <i class="fa fa-instagram"></i>
+    <div class="flex-grid" id="founders" style="">
+      <a href="https://twitter.com/AvroSci" class="fa fa-twitter-square"></a> 
       <p><a href="mailto:contact@avrolifescience.com"> contact@avrolifescience.com </a></p>
-      <p> &#169; Copyright AVROLIFESCI 2017 </p>
+      <p style="font-family: montserratlight; color: #757575;"> &#169; Copyright AVROLIFESCI 2017 </p>
     </div> 
   </div>
 
